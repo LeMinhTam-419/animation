@@ -6,8 +6,8 @@ class ButtonAdd extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return (new Container(
-      width: buttonAnimation.value * 59,
-      height: buttonAnimation.value * 59,
+      width: buttonAnimation.value * 60,
+      height: buttonAnimation.value * 60,
       alignment: FractionalOffset.center,
       decoration: new BoxDecoration(
           color: const Color.fromRGBO(246, 60, 100, 1.0),
